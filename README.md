@@ -28,16 +28,16 @@ const banabikart = new BanaBiKart();
 
 ```
 
+``` javascript
 #### CUSTOMER 
 
-Fetch order by id
-``` javascript
+//Fetch order by id
 const order: Order[] = await banabikart.order.get("order id");
 ``
 
 #### RESELLER
 
-Fetch orders
+//Fetch orders
 ``` javascript
 const orders: Orders = await banabikart.orders();
 ```
